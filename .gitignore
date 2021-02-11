@@ -3,3 +3,5 @@
 .classpath
 .project
 /bin/
+.idea/
+com.sample.iml
