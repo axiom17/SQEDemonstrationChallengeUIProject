@@ -44,7 +44,7 @@ public class TestBase {
             driver = new ChromeDriver();
         }
         else {
-            fail("Unsupported bfrowser " + config.getBrowser());
+            fail("Unsupported browser " + config.getBrowser());
         }
        
     }

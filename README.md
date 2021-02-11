@@ -43,6 +43,14 @@ We will be evaluating
 5. When complete please check your code into your public git repo
 
 #### Test Cases
+ 1.   Test each dropdown to make sure the calculation works correctly in the quantity and cost fields.
+      - Pizza Size
+      - Toppings
+ 2.   Test the name, email, and phone fields to ensure they accept the correct information type (regex).
+ 3.   Test the payment information fields to ensure only 1 can be selected.
+ 4.   Ensure the reset button empties all selections.
 
- 1.  
-
+#### Defects
+ 1. It is possible to order a second topping with only a 1-topping pizza selected (defect)
+ 2. Credit Card & Cash on Pickup can both be selected (defect)
+ 3. It is still possible to select toppings on a pizza with 0 toppings.
